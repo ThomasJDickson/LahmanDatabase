@@ -1,0 +1,14 @@
+{
+  "sqlite": {
+            "basepath": ".",
+            "scheme": "sqlite+pysqlite",
+            "database": "lahman2019"
+            },
+  "mysql": {
+            "user": "bookuser", 
+            "pass": "bookpass",
+            "server": "hadoop2.mathsci.denison.edu",
+            "scheme": "mysql+mysqlconnector",
+            "database": "lahman2019"
+            }
+}
